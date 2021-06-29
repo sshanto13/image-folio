@@ -1,0 +1,265 @@
+/* 
+==================================
+custom code start here
+=================================
+*/
+.bg-gray{
+    background-color: #F6F7FB!important;
+}
+
+
+/*
+=========================================================
+Style for  Media Library 
+=========================================================
+*/
+.card {
+  border-radius: 10px;
+}
+.font-11{
+  font-size: 10px;
+}
+.home-show-card{
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+}
+.image-show .card-img, .card-img-top {
+  padding: 10px;
+  border-radius: 15px!important;
+}
+.card-text{
+  margin-bottom: 0px;
+  padding: 5px 15px;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  background: #f0f0f0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.image-show .card-body{
+  padding: 3px 15px 5px 15px;
+}
+.single-item img{
+  max-height: 500px;
+  height: auto;
+}
+.single-item-filter img{
+  max-height: 70px;
+  height: auto;
+}
+/*
+===========================================================
+Upload Area Style 
+===========================================================
+*/
+.upload-btn-area{
+  background-color: #E8F0FD;
+}
+.file {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file > input[type='file'] {
+  position: absolute;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+
+}
+
+.file > label {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+  border: 1px dotted #444;
+  border-radius: 4px;
+  border-width: 1px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 29%);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file > label:hover {
+  border-color: hsl(0, 0%, 21%);
+}
+
+/*
+================================================
+Save and Back button style
+================================================
+*/
+.back-btn{
+   background-color: white;
+   border:1px solid #ddd;
+   padding: 5px;
+   width: 60px;
+   color: #777;
+}
+.save-btn{
+  background-color: blue;
+  border:1px solid #ddd;
+  padding: 5px;
+  width: 60px;
+  color: white;
+}
+
+/*
+==============================================
+image edit area
+==============================================
+*/
+.image-edit-area .nav-pills{
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+.image-edit-area .nav-pills .nav-link{
+    color: #777;
+    background-color:transparent;
+}
+.image-edit-area .nav-pills .nav-link.active, .image-edit-area .nav-pills .show>.nav-link {
+    color: blue;
+    background-color: #E8F0FD;
+}
+.image-filter .card{
+  border-radius: 15px!important;
+  border-color: blue;
+}
+.image-filter .card-img, .card-img-top {
+  padding: 10px 0px;
+  border-radius: 5px!important;
+}
+.image-filter .card-body{
+    padding: 3px 15px 5px 15px;
+    border: 0px solid #ddd;
+}
+
+/*
+Image editor redesign 
+*/
+.menu{
+    background: #efefef!important;
+    width: 54%!important;
+    margin: 29px auto!important;
+}
+
+/*
+common
+*/
+
+.upload-btn{
+  color: #6d6d6d!important;
+  background-color: #f6f7fb!important;
+  border-color: #8b8d94!important;
+  min-width: 160px!important;
+  text-align: center!important;
+}
+.revert-btn{
+  min-width: 100px;
+  padding: 5px;
+  height: 30px;
+  background: #f6f7fb;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5px;
+  color: #212020;
+}
+.delete-btn{
+  min-width: 100px;
+  padding: 5px;
+  height: 30px;
+  background: #f6f7fb;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5px;
+  color: #212020;
+}
+.btn-save{
+  min-width: 150px;
+  padding: 7px!important;
+  height: 36px;
+  background: #1C73E7;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.btn-save:hover{
+  color: #ffffff;
+  background: #216fd6!important;
+}
+#btn-download{
+  min-width: 150px;
+  padding: 7px!important;
+  height: 36px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5px;
+  color: #1c73e7;
+  border: 1px solid #ddd;
+  font-weight: 600;
+}
+.revert-edit-btn{
+  min-width: 150px;
+  padding: 7px!important;
+  height: 36px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 1;
+  border-radius: 5px;
+  color: #1c73e7;
+  border: 1px solid #ddd;
+  font-weight: 600;
+}
+.revert-edit-btn:hover{
+  color: #1c73e7;
+}
+.p-b-68{
+  padding-bottom: 68px!important;
+}
+.close{
+  font-size: 14px!important;
+}
+.revert-li{
+  background-color: transparent;
+  padding: 0px!important;
+  margin: 0px!important;
+}
+.revert-li:active, .revert-li:hover{
+  background-color: transparent!important;
+  padding: 0px!important;
+  margin: 0px!important;
+}
+.tui-image-editor-controls label {
+  display: inline-block!important;
+  margin-bottom: .5rem!important;
+  min-width: 103px!important;
+  background: #f6f7fb!important;
+  padding: 5px!important;
+  margin-right: 20px!important;
+  cursor: pointer;
+}
+.tui-image-editor-controls input[type=checkbox], .tui-image-editor-controls input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+  padding: 20px!important;
+  cursor: pointer;
+}
