@@ -10,6 +10,10 @@ See the project on this url: http://localhost/PHP_folio/
 This is a also Standalone project (PHP) where you can edit image through this : http://localhost/PHP_folio/
 
 
+
+
+
+
 This is my another try with Vue.
 
 Now go the frontend-vue folder and run bellow command
