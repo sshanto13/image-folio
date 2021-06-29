@@ -1,5 +1,5 @@
 # image-folio
-A Image Editing Web App with PHP and Vue 
+An Image Editing Web App with PHP and Vue 
 
 Please clone the repositry. 
 Then move the PHP_folio folder to root directory on PHP server. 
