@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 29, 2021 at 04:54 PM
+-- Generation Time: Jun 29, 2021 at 06:14 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.15
 
@@ -40,7 +40,15 @@ CREATE TABLE `images` (
 --
 
 INSERT INTO `images` (`id`, `image_url`, `update_image_url`, `created_at`, `updated_at`) VALUES
-(112, 'test.png', NULL, '2021-06-29 14:48:23', '2021-06-29 14:48:23');
+(117, 'SimpleImageFive.png', NULL, '2021-06-29 16:04:44', '2021-06-29 16:04:44'),
+(119, 'simpleimagethree.jpeg', NULL, '2021-06-29 16:05:06', '2021-06-29 16:05:06'),
+(120, 'SimpleImageFour.jpg', NULL, '2021-06-29 16:05:24', '2021-06-29 16:05:24'),
+(121, 'simpleimagetwo.jpeg', NULL, '2021-06-29 16:05:34', '2021-06-29 16:05:34'),
+(123, 'SimpleImageNine.jpg', NULL, '2021-06-29 16:06:39', '2021-06-29 16:06:39'),
+(124, 'simpleImageOne.jpg', NULL, '2021-06-29 16:06:52', '2021-06-29 16:06:52'),
+(125, 'ImageTestOne.jpg', NULL, '2021-06-29 16:09:11', '2021-06-29 16:09:11'),
+(126, 'testImagethree.jpg', NULL, '2021-06-29 16:10:30', '2021-06-29 16:10:30'),
+(127, 'testImage.jpg', NULL, '2021-06-29 16:10:40', '2021-06-29 16:10:40');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +68,7 @@ ALTER TABLE `images`
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
